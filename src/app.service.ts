@@ -12,7 +12,7 @@ export class AppService {
       });
       const page = await context.newPage();
 
-      await page.setViewportSize({ width: 650*scale, height: 455*scale });
+      await page.setViewportSize({ width: Math.round(650*scale), height: Math.round(455*scale) });
       
       const generatedHTML = fs.readFileSync('./src/poster/poster.html', 'utf-8');
 
