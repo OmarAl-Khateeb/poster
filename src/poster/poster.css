@@ -1,0 +1,212 @@
+
+.container {
+  position: relative;
+}
+
+.rectangle {
+  width: 73.23vw;
+  height: 21vh;
+  position: absolute;
+  top: 5.71vh;
+  left: 5.85vw;
+  border: 0.15vw solid #DAD7D7;
+  border-radius: 0.46vw;
+  background-color: transparent;
+  font-family: 'Cairo';
+  font-weight: 700;
+  font-size: 2.77vw;
+  text-align: right;
+  color: #000;
+  box-shadow: -0.31vw 0.31vw 0.31vw rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  margin-block: 3.3vh;
+  margin-inline: 3.3vw;
+}
+
+.logo {
+  width: 14.62vw;
+  height: 21vh;
+  position: absolute;
+  top: 5.71vh;
+  left: 80.15vw;
+  background-color: #0B233A;
+  border-radius: 0.61vw;
+  background-size: cover;
+  text-align: center;
+}
+
+.logo img {
+  width: 11.38vw;
+  height: 13.11vh;
+  transform: translateY(25%);
+}
+
+.qrcode {
+  position: absolute;
+  width: 22.62vw;
+  height: 32.31vh;
+  top: 32.31vh;
+  left: 5.85vw;
+  border: 0.15vw solid;
+}
+
+.qrcode img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  font-family: 'Cairo';
+  font-weight: 600;
+  font-size: 2.46vw;
+  font-weight: bold;
+}
+
+.whatsapp {
+  position: absolute;
+  width: 30.77vw;
+  height: 9.89vh;
+  top: 34.73vh;
+  left: 31.69vw;
+  border: 0.31vw solid #DAD7D7;
+  border-radius: 0.61vw;
+}
+
+.whatsapp img {
+  width: 4.61vw;
+  height: 4.61vw;
+  transform: translateY(1.5vh) translateX(35.54vh);
+}
+
+.phone {
+  position: absolute;
+  width: 30.77vw;
+  height: 9.89vh;
+  top: 34.73vh;
+  left: 63.85vw;
+  border: 0.31vw solid #DAD7D7;
+  border-radius: 0.61vw;
+}
+
+.phone img {
+  width: 4.61vw;
+  height: 4.61vw;
+  transform: translateY(1.5vh) translateX(35.54vh);
+}
+
+.location {
+  position: absolute;
+  width: 63.23vw;
+  height: 15.16vh;
+  top: 46.37vh;
+  left: 31.69vw;
+  border-radius: 0.61vw;
+  border: 0.31vw solid #DAD7D7;
+}
+
+.location img {
+  position: absolute;
+  width: 2.7vw;
+  height: 6.15vh;
+  transform: translateY(-8vh) translateX(58vw);
+}
+
+.location-text {
+  width: 53.31vw;
+  height: 12.97vh;
+  text-align: right;
+  transform: translateY(1.5vh) translateX(3.2vh);
+}
+
+.details {
+  position: absolute;
+  width: 88.15vw;
+  height: 6.59vh;
+  top: 71.21vh;
+  left: 6.15vw;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  gap: 6.46vh;
+  margin: 0.6vw;
+}
+
+.detail-box {
+  flex: 1;
+  display: flex;
+  width: 12.46vw;
+  height: 6.59vh;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  background-color: #D9D9D9;
+  border: 0.15vw;
+  border-radius: 0.61vw;
+}
+
+.detail-icon {
+  width: 4.6vw;
+  height: 6.6vh;
+}
+
+.detail-text {
+  margin: 0.3vw;
+  font-weight: 400;
+  font-family: 'Droid Arabic Kufi';
+  color: #0D3353;
+  font-size: 2.3vw;
+}
+
+.bottom-logo {
+  position: absolute;
+  width: 10vw;
+  height: 14.29vh;
+  top: 80.88vh;
+  left: 85.23vw;
+  border-radius: 0.61vw;
+  background-color: #0B233A;
+  background-size: cover;
+  text-align: center;
+  box-shadow: 0 1.85vw 1.85vw rgba(0, 0, 0, 0.25);
+}
+
+.bottom-logo img {
+  width: 9.6vw;
+  height: 9.9vh;
+  transform: translateY(25%);
+}
+
+.bottom {
+  position: absolute;
+  width: 78.77vw;
+  height: 14.29vh;
+  top: 80.88vh;
+  left: 6vw;
+  border-radius: 0.61vw;
+  background-color: #0B233A;
+  box-shadow: 0 1.85vw 1.85vw rgba(0, 0, 0, 0.25);
+  font-family: 'Cairo';
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-firstrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1vh;
+  margin-inline: 3.46vh;
+  font-size: 2.3vw;
+  font-weight: bold;
+}
+
+.bottom-secondrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 3.46vh;
+  font-size: 1.7vw;
+}
